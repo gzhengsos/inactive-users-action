@@ -18,8 +18,8 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.OCTODEMO_TOKEN }}
-          organization: octodemo
-          activity_days: 680
+          organization: rapidsos
+          activity_days: 120
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
